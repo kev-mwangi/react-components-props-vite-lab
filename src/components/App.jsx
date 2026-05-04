@@ -17,7 +17,8 @@ function App() {
   return (
   <div>
     <Header name = "Personal Blog" />
-    <About about = "Welcome to my blog i specifically write about development! "/>
+    <About about = "Welcome to my blog i specifically write about development! "
+     image= {null}/>
     <ArticleList posts={posts} />
   </div>
   );
